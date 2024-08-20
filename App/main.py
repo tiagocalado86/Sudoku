@@ -15,7 +15,7 @@ def row(top: int):
 
 def drawGrid():
     top = 50 #max 450
-    for i in range(9):
+    for i in range(8):
         row(top)
         top += 50
 
